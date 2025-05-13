@@ -2,11 +2,25 @@ body{
     text-align: center;
     background-color: #8b008b;
     font-family: 'Arial';
-    color: #f0f8ff;
+    color: #f7f0ff;
 }
 
 h1{
     border: 1px solid #f0f8ff;
     padding: 10px;
     margin-bottom: 40px;
+}
+
+button{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #4d0c4d;
+    color: #f0f8ff;
+    transition: 0.4s;
+}
+
+button:hover{
+    background-color: #bd1abd;
 }
